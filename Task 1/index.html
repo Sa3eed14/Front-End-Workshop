@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-group mb-3 offset-3 col-6">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" id="btnadd" type="button">Add Item</button>
+            </div>
+            <input id="additem" type="text" class="form-control" placeholder="New Item" aria-label="" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3 offset-3 col-6">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" id="btnsearch" type="button">Search</button>
+            </div>
+            <input id="searchfld" type="text" class="form-control" placeholder="Search" aria-label="" aria-describedby="basic-addon1">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <ul class="list-group offset-3 col-6" id="items">
+                <li class="list-group-item">Items</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
